@@ -1,13 +1,15 @@
 Package: sesp
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Sensitivity / specificity tools 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: N. Lapidus
+Maintainer: N. Lapidus <n.lapidus@gmail.com>
+Description: Conversions between sensitivity, specificity, prevalence, positive and negative predictive values
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/nlapidus/sesp
 BugReports: https://github.com/nlapidus/sesp/issues
+Imports:
+    dplyr
+RoxygenNote: 7.1.1
